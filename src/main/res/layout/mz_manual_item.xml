@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="62dp" android:layout_height="match_parent">
+    <com.meizu.media.camera.views.ImageCheckableView android:layout_gravity="center" android:id="@+id/mz_manual_item_view" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginBottom="3dp" android:scaleType="fitCenter"/>
+    <TextView android:textSize="@dimen/mz_font_size_10sp" android:textColor="#ffffffff" android:id="@+id/mz_manual_item_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="content" android:includeFontPadding="false" android:shadowColor="@color/mz_fb_item_text_color" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="2" android:lineSpacingExtra="0.16dp" android:fontFamily="sans-serif-medium" android:textAlignment="center"/>
+</LinearLayout>

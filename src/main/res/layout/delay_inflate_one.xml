@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="layout/delay_inflate_one_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_cam_preview_view" android:layout="@layout/stub_cam_preview_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_cam_funny_snap_view" android:layout="@layout/mz_funny_snap_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/stub_cam_ar_view" android:layout="@layout/mz_ar_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/face_view_stub" android:visibility="gone" android:layout="@layout/face_view" android:inflatedId="@+id/face_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/bottom_bar_gaussiang" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mz_bottom_bar_height"/>
+    <com.meizu.media.camera.animation.SplashAnimView android:id="@+id/splash_anim" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:visibility="gone" android:layout="@layout/no_compress_res" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

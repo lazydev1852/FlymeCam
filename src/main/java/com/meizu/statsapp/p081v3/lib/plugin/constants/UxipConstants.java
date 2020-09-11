@@ -1,0 +1,56 @@
+package com.meizu.statsapp.p081v3.lib.plugin.constants;
+
+/* renamed from: com.meizu.statsapp.v3.lib.plugin.constants.UxipConstants */
+public class UxipConstants {
+    public static final String API_RESPONSE_CODE = "code";
+    public static final String API_RESPONSE_VALUE = "value";
+    public static final String BATCH_UPLOAD = "/batch";
+    public static final long DAILY_MILLISENCOND = 86400000;
+    public static final int EMITTER_SERVER_THREAD_COUNT = 1;
+    public static final int EVENT_INACTIVE = -1;
+    public static final String EVENT_UPLOAD_MAJOR_VERSION = "03";
+    public static final String EVENT_UPLOAD_MIN_VERSION = "4";
+    public static final String EVENT_UPLOAD_VARIANT_VERSION = "0";
+    public static String GET_CONFIG_URL = "http://uxip-res.meizu.com/resource/v3/config/";
+    public static String GET_UMID_URL = "http://uxip-config.meizu.com/api/v3/umid";
+    public static final long HOUR_MILLISENCOND = 3600000;
+    public static final String MZ_ANALYTIC_SDK_UMID = "mz_analytic_sdk_umid";
+    public static final String OS_TYPE = "android";
+    public static final String PREFERENCES_COMMON_NAME = "com.meizu.statsapp.v3.common";
+    public static final String PREFERENCES_EMITTER_CONFIG_NAME = "com.meizu.statsapp.v3.emitterconfig";
+    public static final String PREFERENCES_KEY_DAILY_ACTIVED_LAST = "DAILY_ACTIVED_LAST";
+    public static final String PREFERENCES_KEY_GET_TIME = "getTime";
+    public static final String PREFERENCES_KEY_GLOBAL_ACTIVED = "GLOBAL_ACTIVED";
+    public static final String PREFERENCES_KEY_POSITION_INTERVAL = "POSITION_INTERVAL";
+    public static final String PREFERENCES_KEY_RESPONSE = "response";
+    public static final String PREFERENCES_SERVER_CONFIG_NAME = "com.meizu.statsapp.v3.serverconfig";
+    public static final String REALTIME_UPLOAD = "/realtime";
+    public static final String RESPONSE_KEY_ACTIVE = "active";
+    public static final String RESPONSE_KEY_EVENTS = "events";
+    public static final String RESPONSE_KEY_EVENTS_ACTIVE = "active";
+    public static final String RESPONSE_KEY_EVENTS_NAME = "name";
+    public static final String RESPONSE_KEY_EVENTS_NEARTIME = "neartime";
+    public static final String RESPONSE_KEY_EVENTS_REALTIME = "realtime";
+    public static final String RESPONSE_KEY_POSITIONING_INTERVAL = "positioningInterval";
+    public static final String RESPONSE_KEY_SAMPLING = "sampling";
+    public static final String RESPONSE_KEY_UPLOADPOLICY = "uploadPolicy";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_CACHECAPACITY = "cacheCapacity";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_INTERVAL = "interval";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_MOBILEQUOTA = "mobileQuota";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_NEARTIME_INTERVAL = "neartimeInterval";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_ONCHARGE = "onCharge";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_ONRECONNECT = "onReconnect";
+    public static final String RESPONSE_KEY_UPLOADPOLICY_ONSTART = "onStart";
+    public static final String RESPONSE_KEY_VERSION = "version";
+    public static final String RPK_CONFIG_URL = "http://uxip-res.meizu.com/resource/v3/config/rpk/";
+    public static final int SEND_NEARTIME = 3;
+    public static final int SEND_NORMA = 1;
+    public static final int SEND_REALTIME = 2;
+    public static final long THREE_DAYS_MILLISENCOND = 259200000;
+    public static final String UMID_RESPONSE_KEY_IMEI = "imei";
+    public static final String UMID_RESPONSE_KEY_SECONDARY_IMEI = "secondary_imei";
+    public static final String UMID_RESPONSE_KEY_SN = "sn";
+    public static final String UMID_RESPONSE_KEY_UMID = "umid";
+    public static final String UMID_SECRET_KEY = "OjUiuYe80AUYnbgBNT6";
+    public static String UPLOAD_URL = "http://uxip.meizu.com/api/v3/event/";
+}

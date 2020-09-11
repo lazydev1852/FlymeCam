@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_smartbar_layout" android:tag="layout/mz_camera_simplify_smartbar_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.meizu.media.camera.simplify.MzSimplifySmartbarContainer android:layout_gravity="center_vertical" android:id="@+id/mz_camera_smartbar" android:background="@drawable/mz_control_bar_bg" style="@style/MzSmartBar">
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/flashlight_control" android:src="@drawable/mz_ic_tab_flash_off" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/fb_control" android:src="@drawable/mz_ic_tab_fb_off" style="@style/MzSmartBarBtn"/>
+    </com.meizu.media.camera.simplify.MzSimplifySmartbarContainer>
+    <TextView android:gravity="center_horizontal" android:id="@+id/smartbar_hint_textview" android:layout_marginTop="10dp" android:layout_below="@+id/mz_camera_smartbar" android:layout_centerInParent="true" style="@style/MzFbItemText"/>
+    <TextView android:textSize="@dimen/mz_font_size_11sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/smartbar_bg_hint_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="19dp" android:layout_marginTop="10dp" android:layout_below="@+id/mz_camera_smartbar" android:layout_centerInParent="true" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+</RelativeLayout>

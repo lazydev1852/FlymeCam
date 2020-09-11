@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceGroup xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" app:title="@string/pref_camera_settings_category">
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_none_key" app:filterTitle="@string/mz_filter_none_title" app:filterValue="@string/mz_filter_none_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_1_key" app:filterTitle="@string/mz_filter_1_title" app:filterValue="@string/mz_filter_1_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_2_key" app:filterTitle="@string/mz_filter_2_title" app:filterValue="@string/mz_filter_2_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_3_key" app:filterTitle="@string/mz_filter_3_title" app:filterValue="@string/mz_filter_3_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_4_key" app:filterTitle="@string/mz_filter_4_title" app:filterValue="@string/mz_filter_4_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_5_key" app:filterTitle="@string/mz_filter_5_title" app:filterValue="@string/mz_filter_5_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_6_key" app:filterTitle="@string/mz_filter_6_title" app:filterValue="@string/mz_filter_6_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_7_key" app:filterTitle="@string/mz_filter_7_title" app:filterValue="@string/mz_filter_7_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_8_key" app:filterTitle="@string/mz_filter_8_title" app:filterValue="@string/mz_filter_8_value"/>
+    <MzFilterPreference app:filterIcon="@null" app:filterKey="@string/mz_filter_9_key" app:filterTitle="@string/mz_filter_9_title" app:filterValue="@string/mz_filter_9_value"/>
+</PreferenceGroup>

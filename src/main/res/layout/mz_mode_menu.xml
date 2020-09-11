@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_mode_control" android:background="@color/mode_menu_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/mz_mode_menu_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <GridView android:gravity="center" android:layout_gravity="bottom" android:id="@+id/mz_mode_menu" android:paddingBottom="@dimen/mz_mode_menu_padding_bottom" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/mz_mode_menu_item_spacing_h" android:verticalSpacing="@dimen/mz_mode_menu_item_spacing_v" android:stretchMode="columnWidth" android:numColumns="3" android:contentDescription="@string/descp_mode" android:paddingStart="@dimen/mz_mode_menu_padding_left" android:paddingEnd="@dimen/mz_mode_menu_padding_right"/>
+    </FrameLayout>
+</FrameLayout>

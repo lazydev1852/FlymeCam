@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <shortcut android:icon="@drawable/ic_shortcut_video" android:enabled="true" android:shortcutId="record" android:shortcutShortLabel="@string/video_camera_label" android:shortcutLongLabel="@string/video_camera_label" android:shortcutDisabledMessage="@string/video_camera_label">
+        <intent android:targetPackage="com.meizu.media.camera" android:action="meizu.intent.action.shortcut.BACK_VIDEO" android:targetClass="com.meizu.media.camera.CameraActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_manual" android:enabled="true" android:shortcutId="manual" android:shortcutShortLabel="@string/mz_cam_mode_manual" android:shortcutLongLabel="@string/mz_cam_mode_manual" android:shortcutDisabledMessage="@string/mz_cam_mode_manual">
+        <intent android:targetPackage="com.meizu.media.camera" android:action="meizu.intent.action.shortcut.BACK_MANUAL" android:targetClass="com.meizu.media.camera.CameraActivity"/>
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

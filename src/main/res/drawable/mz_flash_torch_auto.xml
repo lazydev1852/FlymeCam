@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="true">
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_01"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_02"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_03"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_04"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_05"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_06"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_07"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_08"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_09"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_10"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_11"/>
+    <item android:duration="10" android:drawable="@drawable/flash_torch_auto_12"/>
+    <item android:duration="10" android:drawable="@drawable/mz_ic_tab_flash_auto"/>
+</animation-list>

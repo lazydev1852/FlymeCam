@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_image_capture_control" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/review_image_bg" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/review_image" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/record_play" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_record_play_btn" android:layout_centerInParent="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/mz_camera_image_capture_control" android:background="@color/mz_gif_smartbar_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/mz_image_capture_bar_height" android:layout_above="@+id/navigation_bar_image_bg" android:layout_alignParentBottom="true">
+        <com.meizu.media.camera.views.GlowImageView android:layout_gravity="center" android:id="@+id/btn_retake" android:layout_weight="1" android:contentDescription="@string/descp_accessibility_review_retake" style="@style/MzSmartBarBtn"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/mz_image_capture_bar_divider_v" android:scaleType="centerInside"/>
+        <com.meizu.media.camera.views.GlowImageView android:layout_gravity="center" android:id="@+id/done_button" android:layout_weight="1" android:contentDescription="@string/descp_accessibility_review_ok" style="@style/MzSmartBarBtn"/>
+    </LinearLayout>
+    <View android:id="@+id/navigation_bar_image_bg" android:background="@color/mz_gif_smartbar_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

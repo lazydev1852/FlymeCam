@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.meizu.media.camera.views.PackagePreference android:enabled="false"/>
+    <com.meizu.common.preference.SwitchPreference android:title="@string/mz_cam_mode_funny_snap" android:key="enable_funny_snap_mode" android:defaultValue="true"/>
+    <com.meizu.common.preference.SwitchPreference android:title="@string/mz_cam_mode_amazing" android:key="enable_amazing_ar_mode" android:defaultValue="true"/>
+    <com.meizu.common.preference.SwitchPreference android:title="@string/mz_setting_location_title" android:key="pref_camera_recordlocation_key" android:defaultValue="true"/>
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="chooser_dialog_margin_bottom">32dp</dimen>
+    <dimen name="chooser_dialog_max_height">296dp</dimen>
+    <dimen name="icon_gap_five">26dp</dimen>
+    <dimen name="icon_gap_four">33dp</dimen>
+    <dimen name="icon_gap_three">40dp</dimen>
+    <dimen name="icon_gap_two">46dp</dimen>
+    <dimen name="mc_custom_time_picker_icon_marginTop">17.5dp</dimen>
+    <dimen name="mc_custom_time_picker_padding">28dp</dimen>
+    <dimen name="mc_custom_time_picker_picker_height">136dp</dimen>
+    <dimen name="mc_custom_time_picker_select_h">41.6dp</dimen>
+    <dimen name="mc_custom_time_picker_tab_height">41dp</dimen>
+    <dimen name="mc_custom_time_picker_tab_text_height">41dp</dimen>
+    <dimen name="mz_alert_dialog_margin_bottom_to_screen">32dp</dimen>
+    <dimen name="mz_alert_dialog_max_height">296dp</dimen>
+    <dimen name="mz_group_list_footer_height">30.4dp</dimen>
+</resources>

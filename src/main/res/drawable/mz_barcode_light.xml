@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:height="91dp" android:width="290dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+    <item android:height="54dp" android:width="290dp" android:top="91dp">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#a519e236" android:endColor="#0019e236" android:angle="90"/>
+        </shape>
+    </item>
+    <item android:gravity="bottom" android:height="145dp" android:width="290dp" android:top="145dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</layer-list>

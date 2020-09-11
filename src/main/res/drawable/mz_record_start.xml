@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="true">
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_01"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_02"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_03"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_04"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_05"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_06"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_07"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_08"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_09"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_10"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_11"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_12"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_13"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_14"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_15"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_16"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_17"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_18"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_start_default_19"/>
+    <item android:duration="15" android:drawable="@drawable/mz_btn_record_stop_default"/>
+</animation-list>

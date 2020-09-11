@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mc_chooser_item_text_size">12sp</dimen>
+    <dimen name="mc_chooser_item_width">24dp</dimen>
+    <dimen name="mc_empty_image_top_land">84.5dp</dimen>
+    <dimen name="mc_empty_image_top_port">113.5dp</dimen>
+    <dimen name="mc_empty_tips_text_size_dark">14sp</dimen>
+    <dimen name="mc_empty_tips_text_size_light">14sp</dimen>
+    <dimen name="mc_empty_tips_top_land">13.5dp</dimen>
+    <dimen name="mc_empty_tips_top_port">13.5dp</dimen>
+    <dimen name="mc_enhancegallery_max_overscroll_distance">120dp</dimen>
+    <dimen name="mc_galleryflow_album_title_padding_bottom">2.5dp</dimen>
+    <dimen name="mc_galleryflow_album_title_size">9sp</dimen>
+    <dimen name="mc_galleryflow_delta_1">13dp</dimen>
+    <dimen name="mc_galleryflow_delta_2">9dp</dimen>
+    <dimen name="mc_galleryflow_picture_size">90dp</dimen>
+    <dimen name="mc_picker_column_1_text_margin_right">179dp</dimen>
+    <dimen name="mc_picker_day_text_width">28dp</dimen>
+    <dimen name="mc_picker_height">194dp</dimen>
+    <dimen name="mc_picker_month_text_width">24dp</dimen>
+    <dimen name="mc_picker_scroll_item_height">40dp</dimen>
+    <dimen name="mc_picker_selected_ampm_size">20sp</dimen>
+    <dimen name="mc_picker_unselected_ampm_size">15sp</dimen>
+    <dimen name="mc_picker_unselected_number_size">18sp</dimen>
+    <dimen name="mc_picker_width">288.7969dp</dimen>
+    <dimen name="mc_picker_year_text_width">22dp</dimen>
+    <dimen name="mc_seekbar_vertical_thumb_offset">12dp</dimen>
+</resources>

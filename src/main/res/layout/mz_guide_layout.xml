@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@+id/mz_guide_hint" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="bottom" android:id="@+id/mz_guide_triangle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_wideangle_triangle_margin_bottom" android:src="@drawable/triangle_down" android:layout_below="@+id/mz_guide_text"/>
+        <TextView android:textSize="@dimen/mz_font_size_14sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@+id/mz_guide_text" android:background="@drawable/mz_cam_guide_corner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+    </RelativeLayout>
+</FrameLayout>

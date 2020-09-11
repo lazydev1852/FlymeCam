@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.meizu.media.camera.views.FilterItemView android:layout_gravity="center_horizontal" android:id="@+id/mz_sticker_item" android:clipChildren="false" android:layout_width="60dp" android:layout_height="47dp" android:layout_marginLeft="1.5dp" android:layout_marginRight="1.5dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/mz_ar_sticker_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/mz_ar_sticker_selected" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/mz_fs_filter_select_bg" android:scaleType="fitXY"/>
+        <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/mz_ar_left_corner_img" android:background="@drawable/mz_funnysnap_music" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginBottom="5dp"/>
+        <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/mz_ar_right_corner_img" android:background="@drawable/mz_funnysnap_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_marginBottom="5dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/mz_ar_loadingView" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp"/>
+    </com.meizu.media.camera.views.FilterItemView>
+</LinearLayout>

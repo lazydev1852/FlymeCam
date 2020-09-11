@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="true">
+    <item android:duration="15" android:drawable="@drawable/mz_pano_shutter_stop_default"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_01"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_02"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_03"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_04"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_05"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_06"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_07"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_08"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_09"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_10"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_11"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_12"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_13"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_14"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_15"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_16"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_17"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_18"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_stop_19"/>
+    <item android:duration="15" android:drawable="@drawable/mz_pano_shutter_start_default"/>
+</animation-list>

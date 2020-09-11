@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top" android:orientation="horizontal" android:id="@+id/mz_setting_top_layout" android:tag="layout/mz_top_setting_control_0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.meizu.media.camera.views.TopSettingView android:orientation="horizontal" android:id="@+id/mz_setting_top_view" android:tag="binding_1" android:background="@drawable/mz_control_bar_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/mz_top_item_height" android:listSelector="@drawable/mz_list_selector">
+        <include android:id="@+id/mz_setting_item0" android:layout_width="64dp" android:layout_height="match_parent" layout="@layout/mz_top_setting_item"/>
+        <include android:id="@+id/mz_setting_item1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/mz_top_setting_item"/>
+        <include android:id="@+id/mz_setting_item2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/mz_top_setting_item"/>
+        <include android:id="@+id/mz_setting_item3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/mz_top_setting_item"/>
+        <include android:id="@+id/mz_setting_item4" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/mz_top_setting_item"/>
+    </com.meizu.media.camera.views.TopSettingView>
+</LinearLayout>

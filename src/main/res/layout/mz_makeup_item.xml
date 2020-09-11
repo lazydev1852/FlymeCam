@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/mz_makeup_item" android:paddingLeft="3dp" android:paddingTop="9dp" android:paddingRight="3dp" android:paddingBottom="9dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp">
+    <ImageView android:id="@+id/mz_makeup_item_img" android:layout_width="52dp" android:layout_height="52dp"/>
+    <ImageView android:id="@+id/mz_makeup_item_bg" android:layout_width="52dp" android:layout_height="52dp" android:scaleType="fitXY"/>
+    <TextView android:textSize="10sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/mz_makeup_item_txt" android:background="@color/mz_filter_item_text_background" android:layout_width="52dp" android:layout_height="16dp" android:layout_alignBottom="@+id/mz_makeup_item_bg" android:fontFamily="sans-serif-medium"/>
+</RelativeLayout>

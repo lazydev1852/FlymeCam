@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.common.widget.SmoothCornerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" app:mzCornerRadius="@dimen/mc_content_toast_bg_corner_radius">
+    <LinearLayout android:orientation="vertical" android:id="@+id/rootLayout" android:background="@color/mz_complete_toast_bg" android:paddingTop="25dp" android:paddingBottom="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/mz_complete_toast_width">
+        <com.meizu.common.widget.SwimmingAnimationView android:layout_gravity="center_horizontal" android:id="@+id/applyAnimView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.67dp"/>
+        <TextView android:textSize="14sp" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@+id/applyAnimTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mc_loading_animation_alert" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" android:paddingStart="17dp" android:paddingEnd="17dp"/>
+    </LinearLayout>
+</com.meizu.common.widget.SmoothCornerView>

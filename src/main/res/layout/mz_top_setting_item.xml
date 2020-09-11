@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.camera.views.TextIconCheckableView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="@dimen/mz_font_size_12sp" android:textColor="@color/mz_settting_item_unselect_color" android:id="@+id/top_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_top_item_paddingLeft" android:fontFamily="sans-serif-medium"/>
+</com.meizu.media.camera.views.TextIconCheckableView>

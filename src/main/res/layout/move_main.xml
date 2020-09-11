@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mode_move_content" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/MzModeMoveBackground">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="bottom" android:id="@+id/mode_move_menu" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:splitMotionEvents="false"/>
+</FrameLayout>

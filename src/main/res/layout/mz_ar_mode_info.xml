@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/mz_ar_info_view" android:background="@drawable/mz_ar_info_background" android:layout_width="match_parent" android:layout_height="92dp">
+        <LinearLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23dp" android:layout_marginTop="27dp">
+            <TextView android:textSize="17sp" android:textColor="#e6000000" android:id="@+id/mz_ar_info_title" android:layout_width="278dp" android:layout_height="wrap_content" android:layout_marginBottom="9dp" android:text="@string/mz_cam_mode_ar"/>
+            <TextView android:textSize="14sp" android:textColor="#73000000" android:ellipsize="end" android:id="@+id/mz_ar_info_desc" android:layout_width="278dp" android:layout_height="wrap_content" android:text="@string/mz_ar_info_desc" android:maxLines="2"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/mz_ar_info_pic" android:background="@drawable/mz_ar_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</FrameLayout>

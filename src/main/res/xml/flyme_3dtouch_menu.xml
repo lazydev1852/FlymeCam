@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forcetouch xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <menu android:title="@string/mz_forcetouch_item_video" data="flyme_3dtouch://com.meizu.media.camera/video" icon=""/>
+    <menu android:title="@string/mz_forcetouch_item_mirror" data="flyme_3dtouch://com.meizu.media.camera/mirror" icon=""/>
+</forcetouch>

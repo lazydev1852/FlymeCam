@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:id="@+id/mz_faceu_icon" android:background="@drawable/mz_funny_faceu_icon" android:layout_width="44dp" android:layout_height="44dp" android:layout_marginLeft="17dp" android:layout_marginRight="10dp" android:adjustViewBounds="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_weight="1">
+        <TextView android:textSize="@dimen/mz_font_size_14sp" android:textColor="@color/mz_funny_snap_faceu_title" android:id="@+id/mz_faceu_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mz_cam_mode_funny_snap_faceu_title"/>
+        <TextView android:textSize="@dimen/mz_font_size_10sp" android:textColor="@color/mz_funny_snap_faceu_desc" android:id="@+id/mz_faceu_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/mz_cam_mode_funny_snap_faceu_desc"/>
+    </LinearLayout>
+</LinearLayout>

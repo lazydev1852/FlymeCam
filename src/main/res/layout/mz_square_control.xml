@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mz_square_layout" android:tag="layout/mz_square_control_0" android:background="@android:color/transparent" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/mz_square_top" android:background="@android:color/black" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/mz_square_margin_top"/>
+    <View android:id="@+id/mz_square_rect" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/mz_square_top"/>
+    <View android:id="@+id/mz_square_bottom" android:background="@android:color/black" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/mz_square_rect"/>
+    <TextView android:textSize="@dimen/mz_font_size_16sp" android:textColor="@android:color/white" android:id="@+id/mz_square_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_square_text_margin_top" android:text="@string/mz_square_mode_tip" android:layout_below="@+id/mz_square_rect" android:layout_centerInParent="true"/>
+</RelativeLayout>

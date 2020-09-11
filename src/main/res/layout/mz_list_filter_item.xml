@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <com.meizu.media.camera.views.FilterItemView android:id="@+id/mz_filter_item" android:clipChildren="false" style="@style/MzFilterItem">
+        <com.meizu.camera.effectlib.effects.views.EffectPreviewRenderView android:id="@+id/mz_filter_item_rv" style="@style/MzFilterItemRender"/>
+        <ImageView android:id="@+id/mz_filter_item_mgr" android:background="@drawable/lutmgr" style="@style/MzFilterBg"/>
+        <TextView android:textSize="10sp" android:textColor="#b3ffffff" android:layout_gravity="bottom" android:id="@+id/mz_filter_item_mgr_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginBottom="5dp" android:text="@string/mz_filter_mgr" android:singleLine="true" android:shadowColor="@color/mz_mode_name_shadow_color" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="2" android:fontFamily="sans-serif-medium"/>
+        <ImageView android:id="@+id/mz_filter_item_bg" android:background="@drawable/filter_item_bg" style="@style/MzFilterBg"/>
+    </com.meizu.media.camera.views.FilterItemView>
+</LinearLayout>

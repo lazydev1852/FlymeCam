@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_ar_layout" android:tag="layout/mz_ar_0" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <FrameLayout android:layout_gravity="top" android:id="@+id/ar_record_timer_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/mz_font_size_14sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/ar_record_timer" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:shadowColor="@color/mz_fb_item_text_color" android:shadowDx="0" android:shadowDy="2" android:shadowRadius="3" android:fontFamily="SFDIN-medium"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mz_ar_control_btn" android:focusable="false" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginBottom="13dp">
+        <ImageView android:layout_gravity="center" android:background="@drawable/mz_ic_ar_icon" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="center"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/mz_ar_sticker_link" android:background="#33ffffff" android:visibility="invisible" android:layout_width="54dp" android:layout_height="54dp" android:layout_marginBottom="7dp" android:scaleType="fitXY" android:layout_marginEnd="7dp"/>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/mz_ar_sticker" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/mz_ar_sticker_window_height">
+        <ImageView android:id="@+id/mz_ar_filter_bg" android:clipChildren="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="68dp"/>
+        <flyme.support.v7.widget.MzRecyclerView android:layout_gravity="center" android:id="@+id/mz_ar_sticker_list" android:paddingLeft="141dp" android:paddingRight="141dp" android:clipChildren="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="61dp" android:overScrollMode="never"/>
+    </FrameLayout>
+</FrameLayout>

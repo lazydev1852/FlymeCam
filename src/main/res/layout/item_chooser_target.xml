@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/gridview_selector" android:layout_width="@dimen/chooser_dialog_item_width" android:layout_height="@dimen/chooser_dialog_item_height">
+    <ImageView android:id="@+id/item_app_icon" android:layout_width="@dimen/chooser_dialog_icon_width" android:layout_height="@dimen/chooser_dialog_icon_width" android:layout_margin="5dp" android:scaleType="fitCenter"/>
+    <TextView android:textSize="10sp" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/item_app_name" android:layout_width="@dimen/share_item_width" android:layout_height="wrap_content" android:layout_marginTop="1.7dp" android:maxLines="2" android:lineSpacingExtra="2dp" android:fontFamily="sans-serif-medium"/>
+</LinearLayout>

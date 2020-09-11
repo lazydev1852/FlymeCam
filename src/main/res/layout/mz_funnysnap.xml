@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_funny_snap_layout" android:tag="layout/mz_funnysnap_0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/mz_fs_beauty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/mz_font_size_12sp" android:textColor="@color/white" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/mz_fs_beauty_hint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/mz_funny_snap_guide_shadow" android:shadowDx="0" android:shadowDy="0" android:shadowRadius="2"/>
+            <LinearLayout android:gravity="center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginLeft="@dimen/mz_funny_snap_icon_left_margin">
+                <Button android:id="@+id/mz_fs_whiten_skin_bt" android:background="@drawable/mz_ic_fs_whiten_skin" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginEnd="12dp"/>
+                <Button android:id="@+id/mz_fs_thin_face_bt" android:background="@drawable/mz_ic_fs_thin_face" android:layout_width="30dp" android:layout_height="30dp"/>
+                <Button android:id="@+id/mz_fs_cancel_seekbar_bt" android:background="@drawable/mz_ic_fs_cancel_effect" android:visibility="gone" android:layout_width="30dp" android:layout_height="30dp"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <SeekBar android:layout_gravity="center" android:id="@+id/mz_fs_beauty_seekbar" android:focusable="true" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="24dp" android:indeterminateDrawable="@drawable/mz_scrubber_progress_horizontal_white" android:progressDrawable="@drawable/mz_scrubber_progress_horizontal_white" android:thumb="@drawable/mz_scrubber_control_selector_white"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/mz_fs_sticker_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mz_funny_snap_sticker_window_height">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="32dp">
+                <Button android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/mz_fs_cancel_bt" android:background="@drawable/mz_funnysnap_cancel" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginLeft="@dimen/mz_funny_snap_icon_left_margin" android:layout_marginRight="11dp" android:scaleType="fitXY"/>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="21dp">
+                    <com.meizu.media.camera.views.SlidingTabLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/mz_fs_tab" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" app:tl_indicator_color="@color/transparent" app:tl_indicator_height="0dp" app:tl_tab_padding="10dp" app:tl_textUnselectColor="#bfffffff" app:tl_textsize="13sp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:layout_gravity="center" android:id="@+id/mz_filter" android:layout_width="match_parent" android:layout_height="65dp">
+                <androidx.viewpager.widget.ViewPager android:id="@+id/mz_fs_vp" android:clipChildren="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/mz_fs_filter" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/mz_font_size_13sp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/mz_fs_filter_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium"/>
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/mz_funny_snap_filter_window_height" android:layout_marginTop="4dp">
+            <com.meizu.media.camera.filter.FilterRecyclerView android:layout_gravity="center" android:id="@+id/mz_fs_filter_list" android:paddingLeft="141dp" android:paddingRight="141dp" android:clipChildren="true" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="61dp" android:overScrollMode="never"/>
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mz_fs_control_btn" android:layout_width="144dp" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/mz_fs_show_filter_bt" android:paddingTop="10dp" android:paddingBottom="14dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="7dp" android:paddingEnd="7dp">
+            <ImageView android:background="@drawable/mz_ic_fs_filter" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="center"/>
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="left" android:id="@+id/mz_fs_show_sticker_bt" android:paddingTop="10dp" android:paddingBottom="14dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="5dp">
+            <ImageView android:background="@drawable/mz_ic_fs_sticker" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="center"/>
+        </FrameLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="right" android:id="@+id/mz_fs_ar_enter_btn" android:paddingTop="10dp" android:paddingBottom="14dp" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="5dp" android:paddingEnd="12dp">
+            <ImageView android:id="@+id/mz_fs_ar_icon" android:background="@drawable/mz_ic_ar_icon" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="center"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/mz_fs_ar_loading" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp"/>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

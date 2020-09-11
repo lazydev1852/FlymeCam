@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/mz_facebeauty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/fb_mode_hint" style="@style/MzFbItemText"/>
+    <TextView android:id="@+id/fb_hint" style="@style/MzFbItemText"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/mz_facebeauty_control_layout" android:background="@drawable/mz_rect_black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_facebeauty_control_marginLeft" android:layout_marginRight="@dimen/mz_facebeauty_control_marginRight" android:layout_marginBottom="@dimen/mz_facebeauty_control_marginBottom">
+        <com.meizu.media.camera.views.MzEnhanceSeekBar android:layout_gravity="center_horizontal" android:id="@+id/smart_current_setting_seekbar" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="9dp" android:layout_marginRight="8dp" android:layout_marginBottom="12dp" app:mcEThumb="@drawable/mz_seekbar_thumb"/>
+        <com.meizu.media.camera.views.MzEnhanceSeekBar android:layout_gravity="center_horizontal" android:id="@+id/current_setting_seekbar" android:paddingTop="8dp" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="-2dp" app:mcEThumb="@drawable/mz_seekbar_thumb"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/all_the_settings" android:paddingTop="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.meizu.media.camera.views.FaceBeautyItemView android:id="@+id/hint_eye" android:drawableTop="@drawable/mz_facebeauty_eyes_off" style="@style/MzFbManualItem"/>
+            <com.meizu.media.camera.views.FaceBeautyItemView android:id="@+id/hint_slime" android:drawableTop="@drawable/mz_facebeauty_face_off" style="@style/MzFbManualItem"/>
+            <com.meizu.media.camera.views.FaceBeautyItemView android:id="@+id/hint_smooth" android:drawableTop="@drawable/mz_facebeauty_mopi_off" style="@style/MzFbManualItem"/>
+            <com.meizu.media.camera.views.FaceBeautyItemView android:id="@+id/hint_tone" android:drawableTop="@drawable/mz_facebeauty_whitening_off" style="@style/MzFbManualItem"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

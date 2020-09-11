@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/aicy_bg" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <flyme.support.v4.view.ViewPager android:id="@+id/aicy_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="bottom" android:id="@+id/aicy_indicator_layout" android:layout_width="match_parent" android:layout_height="5dp" android:layout_marginBottom="@dimen/mz_aicy_margin_bottom">
+        <com.meizu.media.camera.views.PagerCornerIndicator android:layout_gravity="center_horizontal" android:id="@+id/aicy_indicator" android:layout_width="match_parent" android:layout_height="match_parent" app:indicatorNumber="6" app:indicatorPadding="7dp" app:radius="2.5dp" app:selectedColor="#ff1f7ffb" app:unSelectedColor="#1a000000"/>
+    </LinearLayout>
+</FrameLayout>

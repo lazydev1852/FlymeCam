@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="camera_eis_switch_icons">
+        <item>@drawable/mz_ic_tab_eis_off</item>
+        <item>@drawable/mz_ic_tab_eis_on</item>
+    </array>
+    <array name="camera_eis_switch_icons_pressed">
+        <item>@drawable/mz_ic_tab_eis_off</item>
+        <item>@drawable/mz_ic_tab_eis_on</item>
+    </array>
+    <array name="camera_eis_switch_images">
+        <item>@drawable/mz_ic_tab_eis_off</item>
+        <item>@drawable/mz_ic_tab_eis_on</item>
+    </array>
+    <array name="camera_fb_icons">
+        <item>@drawable/mz_ic_tab_fb_off</item>
+        <item>@drawable/mz_ic_tab_fb_light_pressed</item>
+        <item>@drawable/mz_ic_tab_fb_smart_pressed</item>
+    </array>
+    <array name="camera_fb_icons_pressed">
+        <item>@drawable/mz_ic_tab_fb_light_pressed</item>
+        <item>@drawable/mz_ic_tab_fb_light_pressed</item>
+        <item>@drawable/mz_ic_tab_fb_smart_pressed</item>
+    </array>
+    <array name="camera_fb_images">
+        <item>@drawable/mz_ic_tab_fb_off</item>
+        <item>@drawable/mz_ic_tab_fb_light_pressed</item>
+        <item>@drawable/mz_ic_tab_fb_smart_pressed</item>
+    </array>
+    <array name="camera_flashmode_animation_drawable">
+        <item>@drawable/mz_flash_on_off</item>
+        <item>@drawable/mz_flash_off_auto</item>
+        <item>@drawable/mz_flash_auto_on</item>
+    </array>
+    <array name="camera_flashmode_images">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="camera_flashmode_torch_animation_drawable">
+        <item>@drawable/mz_flash_on_off</item>
+        <item>@drawable/mz_flash_off_torch</item>
+        <item>@drawable/mz_flash_torch_auto</item>
+        <item>@drawable/mz_flash_auto_on</item>
+    </array>
+    <array name="camera_flashmode_torch_images">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="camera_hdr_icons">
+        <item>@drawable/mz_ic_tab_hdr_off</item>
+        <item>@drawable/mz_ic_tab_hdr_on_pressed</item>
+        <item>@drawable/mz_ic_tab_hdr_auto</item>
+    </array>
+    <array name="camera_hdr_icons_pressed">
+        <item>@drawable/mz_ic_tab_hdr_off</item>
+        <item>@drawable/mz_ic_tab_hdr_on_pressed</item>
+        <item>@drawable/mz_ic_tab_hdr_auto</item>
+    </array>
+    <array name="camera_hdr_images">
+        <item>@drawable/mz_ic_tab_hdr_off</item>
+        <item>@drawable/mz_ic_tab_hdr_on_pressed</item>
+        <item>@drawable/mz_ic_tab_hdr_auto</item>
+    </array>
+    <array name="camera_manual_20m_icons">
+        <item>@drawable/mz_ic_tab_20m_off</item>
+        <item>@drawable/mz_ic_tab_20m_on</item>
+    </array>
+    <array name="camera_manual_20m_icons_pressed">
+        <item>@drawable/mz_ic_tab_20m_off</item>
+        <item>@drawable/mz_ic_tab_20m_on</item>
+    </array>
+    <array name="camera_manual_20m_images">
+        <item>@drawable/mz_ic_tab_20m_off</item>
+        <item>@drawable/mz_ic_tab_20m_on</item>
+    </array>
+    <array name="camera_manual_48m_icons">
+        <item>@drawable/mz_ic_tab_48m_off</item>
+        <item>@drawable/mz_ic_tab_48m_on</item>
+    </array>
+    <array name="camera_manual_48m_icons_pressed">
+        <item>@drawable/mz_ic_tab_48m_off</item>
+        <item>@drawable/mz_ic_tab_48m_on</item>
+    </array>
+    <array name="camera_manual_48m_images">
+        <item>@drawable/mz_ic_tab_48m_off</item>
+        <item>@drawable/mz_ic_tab_48m_on</item>
+    </array>
+    <array name="camera_manual_64m_icons">
+        <item>@drawable/mz_ic_tab_64m_off</item>
+        <item>@drawable/mz_ic_tab_64m_on</item>
+    </array>
+    <array name="camera_manual_64m_icons_pressed">
+        <item>@drawable/mz_ic_tab_64m_off</item>
+        <item>@drawable/mz_ic_tab_64m_on</item>
+    </array>
+    <array name="camera_manual_64m_images">
+        <item>@drawable/mz_ic_tab_64m_off</item>
+        <item>@drawable/mz_ic_tab_64m_on</item>
+    </array>
+    <array name="camera_time_lapse_entries">
+        <item>@string/pref_camera_timelapse_entry_0.5s</item>
+        <item>@string/pref_camera_timelapse_entry_1s</item>
+        <item>@string/pref_camera_timelapse_entry_2s</item>
+        <item>@string/pref_camera_timelapse_entry_4s</item>
+        <item>@string/pref_camera_timelapse_entry_8s</item>
+    </array>
+    <array name="camera_time_lapse_entryvalues">
+        <item>0.5s</item>
+        <item>1s</item>
+        <item>2s</item>
+        <item>4s</item>
+        <item>8s</item>
+    </array>
+    <array name="camera_time_lapse_icons">
+        <item>@drawable/mz_ic_tab_05s</item>
+        <item>@drawable/mz_ic_tab_1s</item>
+        <item>@drawable/mz_ic_tab_2s</item>
+        <item>@drawable/mz_ic_tab_4s</item>
+        <item>@drawable/mz_ic_tab_8s</item>
+    </array>
+    <array name="camera_time_lapse_icons_pressed">
+        <item>@drawable/mz_ic_tab_05s_pressed</item>
+        <item>@drawable/mz_ic_tab_1s_pressed</item>
+        <item>@drawable/mz_ic_tab_2s_pressed</item>
+        <item>@drawable/mz_ic_tab_4s_pressed</item>
+        <item>@drawable/mz_ic_tab_8s_pressed</item>
+    </array>
+    <array name="camera_time_lapse_images">
+        <item>@drawable/mz_ic_tab_05s_pressed</item>
+        <item>@drawable/mz_ic_tab_1s_pressed</item>
+        <item>@drawable/mz_ic_tab_2s_pressed</item>
+        <item>@drawable/mz_ic_tab_4s_pressed</item>
+        <item>@drawable/mz_ic_tab_8s_pressed</item>
+    </array>
+    <array name="camera_timer_animation_drawables">
+        <item>@drawable/mz_countdown_10s_off</item>
+        <item>@drawable/mz_countdown_off_3s</item>
+        <item>@drawable/mz_countdown_3s_10s</item>
+    </array>
+    <array name="camera_timer_icons">
+        <item>@drawable/mz_ic_tab_countdown_close</item>
+        <item>@drawable/mz_ic_tab_countdown_3s_pressed</item>
+        <item>@drawable/mz_ic_tab_countdown_10s_pressed</item>
+    </array>
+    <array name="camera_timer_icons_pressed">
+        <item>@drawable/mz_ic_tab_countdown_close</item>
+        <item>@drawable/mz_ic_tab_countdown_3s_pressed</item>
+        <item>@drawable/mz_ic_tab_countdown_10s_pressed</item>
+    </array>
+    <array name="camera_timer_images">
+        <item>@drawable/mz_ic_tab_countdown_close</item>
+        <item>@drawable/mz_ic_tab_countdown_3s_pressed</item>
+        <item>@drawable/mz_ic_tab_countdown_10s_pressed</item>
+    </array>
+    <array name="camera_tripod_icons">
+        <item>@drawable/mz_ic_tab_tripod_off</item>
+        <item>@drawable/mz_ic_tab_tripod_on</item>
+    </array>
+    <array name="camera_tripod_icons_pressed">
+        <item>@drawable/mz_ic_tab_tripod_off</item>
+        <item>@drawable/mz_ic_tab_tripod_on</item>
+    </array>
+    <array name="camera_tripod_images">
+        <item>@drawable/mz_ic_tab_tripod_off</item>
+        <item>@drawable/mz_ic_tab_tripod_on</item>
+    </array>
+    <array name="mc_colorful_round">
+        <item>#43b56b</item>
+        <item>#44aff9</item>
+        <item>#f56455</item>
+        <item>#5ecddf</item>
+        <item>#f6b944</item>
+        <item>#bd713b</item>
+    </array>
+    <array name="mc_custom_time_picker_lunar_day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </array>
+    <array name="mc_custom_time_picker_lunar_month">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </array>
+    <array name="mc_custom_weekday">
+        <item>Sun</item>
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+    </array>
+    <array name="mc_pullline_move_end">
+        <item>0.0f</item>
+        <item>0.00013f</item>
+        <item>0.00046f</item>
+        <item>0.00104f</item>
+        <item>0.00182f</item>
+        <item>0.00286f</item>
+        <item>0.0041f</item>
+        <item>0.0056f</item>
+        <item>0.00729f</item>
+        <item>0.00924f</item>
+        <item>0.01146f</item>
+        <item>0.01387f</item>
+        <item>0.01647f</item>
+        <item>0.01934f</item>
+        <item>0.0224f</item>
+        <item>0.02572f</item>
+        <item>0.0293f</item>
+        <item>0.03307f</item>
+        <item>0.03711f</item>
+        <item>0.04134f</item>
+        <item>0.04583f</item>
+        <item>0.05052f</item>
+        <item>0.05547f</item>
+        <item>0.06061f</item>
+        <item>0.06602f</item>
+        <item>0.07168f</item>
+        <item>0.07754f</item>
+        <item>0.08366f</item>
+        <item>0.08997f</item>
+        <item>0.09655f</item>
+        <item>0.10332f</item>
+        <item>0.11035f</item>
+        <item>0.11764f</item>
+        <item>0.1252f</item>
+        <item>0.13294f</item>
+        <item>0.14089f</item>
+        <item>0.14915f</item>
+        <item>0.15762f</item>
+        <item>0.16628f</item>
+        <item>0.17526f</item>
+        <item>0.18444f</item>
+        <item>0.19388f</item>
+        <item>0.20352f</item>
+        <item>0.21348f</item>
+        <item>0.22363f</item>
+        <item>0.23405f</item>
+        <item>0.24466f</item>
+        <item>0.2556f</item>
+        <item>0.26673f</item>
+        <item>0.27813f</item>
+        <item>0.28978f</item>
+        <item>0.30169f</item>
+        <item>0.31387f</item>
+        <item>0.3263f</item>
+        <item>0.339f</item>
+        <item>0.35195f</item>
+        <item>0.3651f</item>
+        <item>0.37858f</item>
+        <item>0.39232f</item>
+        <item>0.40632f</item>
+        <item>0.42057f</item>
+        <item>0.43516f</item>
+        <item>0.44993f</item>
+        <item>0.46504f</item>
+        <item>0.4804f</item>
+        <item>0.49609f</item>
+        <item>0.51204f</item>
+        <item>0.52826f</item>
+        <item>0.54479f</item>
+        <item>0.56165f</item>
+        <item>0.57878f</item>
+        <item>0.59622f</item>
+        <item>0.614f</item>
+        <item>0.63203f</item>
+        <item>0.65046f</item>
+        <item>0.66921f</item>
+        <item>0.68822f</item>
+        <item>0.70768f</item>
+        <item>0.72741f</item>
+        <item>0.74759f</item>
+        <item>0.7681f</item>
+        <item>0.789f</item>
+        <item>0.81035f</item>
+        <item>0.8321f</item>
+        <item>0.8543f</item>
+        <item>0.87702f</item>
+        <item>0.9002f</item>
+        <item>0.92402f</item>
+        <item>0.94844f</item>
+        <item>0.97363f</item>
+        <item>1f</item>
+    </array>
+    <array name="mc_pullline_move_start">
+        <item>0.0f</item>
+        <item>0.02637f</item>
+        <item>0.05156f</item>
+        <item>0.07598f</item>
+        <item>0.0998f</item>
+        <item>0.12298f</item>
+        <item>0.1457f</item>
+        <item>0.1679f</item>
+        <item>0.18965f</item>
+        <item>0.211f</item>
+        <item>0.2319f</item>
+        <item>0.25241f</item>
+        <item>0.27259f</item>
+        <item>0.29232f</item>
+        <item>0.31178f</item>
+        <item>0.33079f</item>
+        <item>0.34954f</item>
+        <item>0.36797f</item>
+        <item>0.386f</item>
+        <item>0.40378f</item>
+        <item>0.42122f</item>
+        <item>0.43835f</item>
+        <item>0.45521f</item>
+        <item>0.47174f</item>
+        <item>0.48796f</item>
+        <item>0.50391f</item>
+        <item>0.5196f</item>
+        <item>0.53496f</item>
+        <item>0.55007f</item>
+        <item>0.56484f</item>
+        <item>0.57943f</item>
+        <item>0.59368f</item>
+        <item>0.60768f</item>
+        <item>0.62142f</item>
+        <item>0.6349f</item>
+        <item>0.64805f</item>
+        <item>0.661f</item>
+        <item>0.6737f</item>
+        <item>0.68613f</item>
+        <item>0.69831f</item>
+        <item>0.71022f</item>
+        <item>0.72188f</item>
+        <item>0.73327f</item>
+        <item>0.7444f</item>
+        <item>0.75534f</item>
+        <item>0.76595f</item>
+        <item>0.77637f</item>
+        <item>0.78652f</item>
+        <item>0.79648f</item>
+        <item>0.80612f</item>
+        <item>0.81556f</item>
+        <item>0.82474f</item>
+        <item>0.83372f</item>
+        <item>0.84238f</item>
+        <item>0.85085f</item>
+        <item>0.85911f</item>
+        <item>0.86706f</item>
+        <item>0.8748f</item>
+        <item>0.88236f</item>
+        <item>0.88965f</item>
+        <item>0.89668f</item>
+        <item>0.90345f</item>
+        <item>0.91003f</item>
+        <item>0.91634f</item>
+        <item>0.92246f</item>
+        <item>0.92832f</item>
+        <item>0.93398f</item>
+        <item>0.93939f</item>
+        <item>0.94453f</item>
+        <item>0.94948f</item>
+        <item>0.95417f</item>
+        <item>0.95866f</item>
+        <item>0.96289f</item>
+        <item>0.96693f</item>
+        <item>0.9707f</item>
+        <item>0.97428f</item>
+        <item>0.9776f</item>
+        <item>0.98066f</item>
+        <item>0.98353f</item>
+        <item>0.98613f</item>
+        <item>0.98854f</item>
+        <item>0.99076f</item>
+        <item>0.99271f</item>
+        <item>0.9944f</item>
+        <item>0.9959f</item>
+        <item>0.99714f</item>
+        <item>0.99818f</item>
+        <item>0.99896f</item>
+        <item>0.99954f</item>
+        <item>0.99987f</item>
+        <item>1f</item>
+    </array>
+    <array name="mc_rating_bar_black_bg_colors">
+        <item>#c9c9c9</item>
+        <item>#c9c9c9</item>
+        <item>#c9c9c9</item>
+        <item>#c9c9c9</item>
+        <item>#c9c9c9</item>
+    </array>
+    <array name="mc_rating_bar_default_colors">
+        <item>#fbc106</item>
+        <item>#fcb10f</item>
+        <item>#fc9c1b</item>
+        <item>#fc8f21</item>
+        <item>#fd7d2c</item>
+    </array>
+    <array name="mc_rating_bar_white_bg_colors">
+        <item>#7f7f7f</item>
+        <item>#7f7f7f</item>
+        <item>#7f7f7f</item>
+        <item>#7f7f7f</item>
+        <item>#7f7f7f</item>
+    </array>
+    <array name="mz_20s_shutter_speed_filter_values">
+        <item>@null</item>
+        <item>1000</item>
+        <item>100000</item>
+        <item>1000000</item>
+        <item>20000000</item>
+    </array>
+    <array name="mz_aicy_content_values">
+        <item>@string/mz_aicy_asd_content</item>
+        <item>@string/mz_aicy_beauty_content</item>
+        <item>@string/mz_aicy_super_night_content</item>
+        <item>@string/mz_aicy_search_photo_content</item>
+        <item>@string/mz_aicy_things_clues_content</item>
+        <item>@string/mz_aicy_document_content</item>
+    </array>
+    <array name="mz_aicy_title_values">
+        <item>@string/mz_aicy_asd_title</item>
+        <item>@string/mz_aicy_beauty_title</item>
+        <item>@string/mz_aicy_super_night_title</item>
+        <item>@string/mz_aicy_search_photo_title</item>
+        <item>@string/mz_aicy_things_clues_title</item>
+        <item>@string/mz_aicy_document_title</item>
+    </array>
+    <array name="mz_app_to_next_open_enter_translate_y">
+        <item>1f</item>
+        <item>0.9098163031f</item>
+        <item>0.8200344432f</item>
+        <item>0.7394374282f</item>
+        <item>0.6665901263f</item>
+        <item>0.600401837f</item>
+        <item>0.5400114811f</item>
+        <item>0.4847301952f</item>
+        <item>0.4340413318f</item>
+        <item>0.3874856487f</item>
+        <item>0.3446613088f</item>
+        <item>0.3052812859f</item>
+        <item>0.2691733639f</item>
+        <item>0.2359931114f</item>
+        <item>0.2056257176f</item>
+        <item>0.1778415614f</item>
+        <item>0.1525258324f</item>
+        <item>0.1295637199f</item>
+        <item>0.1088404133f</item>
+        <item>0.0901836969f</item>
+        <item>0.07347876f</item>
+        <item>0.07347876f</item>
+        <item>0.058783008f</item>
+        <item>0.0458094145f</item>
+        <item>0.0346727899f</item>
+        <item>0.0251435132f</item>
+        <item>0.0172789897f</item>
+        <item>0.0109070034f</item>
+        <item>0.0060849598f</item>
+        <item>0.0026406429f</item>
+        <item>0.0006314581f</item>
+        <item>0f</item>
+    </array>
+    <array name="mz_barcode_auto_other_app_name">
+        <item>@string/mz_barcode_auto_app_name_qq</item>
+        <item>@string/mz_barcode_auto_app_name_bili</item>
+        <item>@string/mz_barcode_auto_app_name_reading</item>
+        <item>@string/mz_barcode_auto_app_name_cloud_music</item>
+        <item>@string/mz_barcode_auto_app_name_zhihu</item>
+        <item>@string/mz_barcode_auto_app_name_dingtalk</item>
+        <item>@string/mz_barcode_auto_app_name_article_news</item>
+        <item>@string/mz_barcode_auto_app_name_article_video</item>
+        <item>@string/mz_barcode_auto_app_name_taobao</item>
+        <item>@string/mz_barcode_auto_app_name_weibo</item>
+        <item>@string/mz_barcode_auto_app_name_weibolite</item>
+    </array>
+    <array name="mz_camera2__shutter_speed_filter_values">
+        <item>@null</item>
+        <item>125</item>
+        <item>250</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>4000</item>
+        <item>8000</item>
+        <item>16666.666</item>
+        <item>33333.333</item>
+        <item>66666.666</item>
+        <item>125000</item>
+        <item>250000</item>
+        <item>500000</item>
+        <item>1000000</item>
+        <item>2000000</item>
+        <item>4000000</item>
+        <item>8000000</item>
+        <item>15000000</item>
+        <item>30000000</item>
+        <item>45000000</item>
+        <item>60000000</item>
+    </array>
+    <array name="mz_camera2_iso_entry">
+        <item>@string/auto</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+        <item>6400</item>
+    </array>
+    <array name="mz_colorful_round">
+        <item>#e26f41</item>
+        <item>#dd5847</item>
+        <item>#6e6bc8</item>
+        <item>#517bd1</item>
+        <item>#28bc92</item>
+        <item>#54ae56</item>
+        <item>#e9a63b</item>
+    </array>
+    <array name="mz_custom_device_mark_desc_options">
+        <item>@string/mz_setting_des_devicemark_close</item>
+        <item>@string/mz_setting_des_devicemark_default</item>
+        <item>@string/mz_setting_des_devicemark_custom</item>
+    </array>
+    <array name="mz_custom_device_mark_options_without_trans">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+        <item>@string/setting_custom_value</item>
+    </array>
+    <array name="mz_eis_switch_entries">
+        <item>@string/pref_camera_toggle_off</item>
+        <item>@string/pref_camera_toggle_on</item>
+    </array>
+    <array name="mz_eis_switch_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_fb_entries">
+        <item>@string/setting_off_value</item>
+        <item>@string/mz_fb_smart_mile</item>
+        <item>@string/mz_fb_smart_depth</item>
+    </array>
+    <array name="mz_fb_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/mz_fb_entryvalue_smart_mile</item>
+        <item>@string/mz_fb_entryvalue_smart_depth</item>
+    </array>
+    <array name="mz_hdr_entries">
+        <item>@string/pref_camera_hdr_entry_off</item>
+        <item>@string/pref_camera_hdr_entry_on</item>
+        <item>@string/pref_camera_hdr_entry_auto</item>
+    </array>
+    <array name="mz_hdr_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+        <item>@string/setting_auto_value</item>
+    </array>
+    <array name="mz_m1721_exposure_filter_values">
+        <item>-12</item>
+        <item>@null</item>
+        <item>12</item>
+    </array>
+    <array name="mz_m80_exposure_filter_values">
+        <item>-3.0</item>
+        <item>0.0</item>
+        <item>3.0</item>
+    </array>
+    <array name="mz_manual_20m_entries">
+        <item>@string/pref_camera_manual_20m_off</item>
+        <item>@string/pref_camera_manual_20m_on</item>
+    </array>
+    <array name="mz_manual_20m_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_manual_48m_entries">
+        <item>@string/pref_camera_manual_48m_off</item>
+        <item>@string/pref_camera_manual_48m_on</item>
+    </array>
+    <array name="mz_manual_48m_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_manual_64m_entries">
+        <item>@string/pref_camera_toggle_on</item>
+        <item>@string/pref_camera_toggle_off</item>
+    </array>
+    <array name="mz_manual_64m_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_manual_camera_id_key_hint">
+        <item>15mm</item>
+        <item>26mm</item>
+        <item>78mm</item>
+    </array>
+    <array name="mz_on_off_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_qualcomm_iso_entry">
+        <item>@string/auto</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+    </array>
+    <array name="mz_storage_entryvalues">
+        <item>sdcard</item>
+        <item>emulated</item>
+    </array>
+    <array name="mz_timer_descps">
+        <item>@string/descp_countdown_close</item>
+        <item>@string/descp_countdown_3s</item>
+        <item>@string/descp_countdown_10s</item>
+    </array>
+    <array name="mz_timer_entries">
+        <item>@string/mz_countdown_close</item>
+        <item>@string/mz_countdown_3s</item>
+        <item>@string/mz_countdown_10s</item>
+    </array>
+    <array name="mz_timer_entryvalues">
+        <item>@null</item>
+        <item>3</item>
+        <item>10</item>
+    </array>
+    <array name="mz_tripod_entries">
+        <item>@string/pref_camera_tripod_off</item>
+        <item>@string/pref_camera_tripod_on</item>
+    </array>
+    <array name="mz_tripod_entryvalues">
+        <item>@string/setting_off_value</item>
+        <item>@string/setting_on_value</item>
+    </array>
+    <array name="mz_zoom_click_values_index">
+        <item>-1</item>
+        <item>@null</item>
+        <item>100</item>
+        <item>200</item>
+        <item>700</item>
+    </array>
+    <array name="mz_zoom_thick_hint_text">
+        <item>26mm</item>
+        <item>52mm</item>
+        <item>78mm</item>
+        <item>208mm</item>
+    </array>
+    <array name="pref_camera_flashmode_entries">
+        <item>@string/pref_camera_flashmode_entry_off</item>
+        <item>@string/pref_camera_flashmode_entry_auto</item>
+        <item>@string/pref_camera_flashmode_entry_on</item>
+    </array>
+    <array name="pref_camera_flashmode_entryvalues">
+        <item>off</item>
+        <item>auto</item>
+        <item>on</item>
+    </array>
+    <array name="pref_camera_flashmode_icons">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="pref_camera_flashmode_icons_pressed">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="pref_camera_flashmode_icons_torch_pressed">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="pref_camera_flashmode_torch_entries">
+        <item>@string/pref_camera_flashmode_entry_off</item>
+        <item>@string/pref_camera_flashmode_entry_torch</item>
+        <item>@string/pref_camera_flashmode_entry_auto</item>
+        <item>@string/pref_camera_flashmode_entry_on</item>
+    </array>
+    <array name="pref_camera_flashmode_torch_entryvalues">
+        <item>off</item>
+        <item>torch</item>
+        <item>auto</item>
+        <item>on</item>
+    </array>
+    <array name="pref_camera_flashmode_torch_icons">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+        <item>@drawable/mz_ic_tab_flash_auto</item>
+        <item>@drawable/mz_ic_tab_flash_on_pressed</item>
+    </array>
+    <array name="pref_camera_focusmode_default_array">
+        <item>continuous-picture</item>
+        <item>auto</item>
+    </array>
+    <array name="pref_video_flashmode_entries">
+        <item>@string/pref_camera_flashmode_entry_off</item>
+        <item>@string/pref_camera_flashmode_entry_on</item>
+    </array>
+    <array name="pref_video_flashmode_entryvalues">
+        <item>off</item>
+        <item>torch</item>
+    </array>
+    <array name="pref_video_flashmode_icons">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+    </array>
+    <array name="pref_video_flashmode_icons_pressed">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+    </array>
+    <array name="values_close_exit_translate_app">
+        <item>0.0f</item>
+        <item>0.12734375f</item>
+        <item>0.290538194f</item>
+        <item>0.445486111f</item>
+        <item>0.579947917f</item>
+        <item>0.678038194f</item>
+        <item>0.747916667f</item>
+        <item>0.802170139f</item>
+        <item>0.845746528f</item>
+        <item>0.881510417f</item>
+        <item>0.911024306f</item>
+        <item>0.935503472f</item>
+        <item>0.95546875f</item>
+        <item>0.971440972f</item>
+        <item>0.983767361f</item>
+        <item>0.992708333f</item>
+        <item>0.998090278f</item>
+        <item>1.0f</item>
+    </array>
+    <array name="values_extra_close_exit_translate_app">
+        <item>0.0</item>
+        <item>0.0047222222</item>
+        <item>0.0180555556</item>
+        <item>0.0391666667</item>
+        <item>0.0669444444</item>
+        <item>0.100462963</item>
+        <item>0.1387962963</item>
+        <item>0.1812037037</item>
+        <item>0.2268518519</item>
+        <item>0.2749074074</item>
+        <item>0.3247222222</item>
+        <item>0.3756481481</item>
+        <item>0.4271296296</item>
+        <item>0.4785185185</item>
+        <item>0.5294444444</item>
+        <item>0.5792592593</item>
+        <item>0.6277777778</item>
+        <item>0.6744444444</item>
+        <item>0.7188888889</item>
+        <item>0.7609259259</item>
+        <item>0.8002777778</item>
+        <item>0.8365740741</item>
+        <item>0.8696296296</item>
+        <item>0.8993518519</item>
+        <item>0.925462963</item>
+        <item>0.9478703704</item>
+        <item>0.9664814815</item>
+        <item>0.9810185185</item>
+        <item>0.9914814815</item>
+        <item>0.9978703704</item>
+        <item>1.0</item>
+    </array>
+    <array name="values_extra_open_enter_translate_app">
+        <item>0.0</item>
+        <item>0.0037037037</item>
+        <item>0.0149074074</item>
+        <item>0.0334259259</item>
+        <item>0.0590740741</item>
+        <item>0.0915740741</item>
+        <item>0.1301851852</item>
+        <item>0.1741666667</item>
+        <item>0.2228703704</item>
+        <item>0.2750925926</item>
+        <item>0.3299074074</item>
+        <item>0.3862962963</item>
+        <item>0.4431481481</item>
+        <item>0.4996296296</item>
+        <item>0.5548148148</item>
+        <item>0.6081481481</item>
+        <item>0.6589814815</item>
+        <item>0.7068518519</item>
+        <item>0.7513888889</item>
+        <item>0.7924074074</item>
+        <item>0.8297222222</item>
+        <item>0.8632407407</item>
+        <item>0.892962963</item>
+        <item>0.9188888889</item>
+        <item>0.9410185185</item>
+        <item>0.959537037</item>
+        <item>0.9744444444</item>
+        <item>0.9857407407</item>
+        <item>0.9937962963</item>
+        <item>0.9984259259</item>
+        <item>1.0</item>
+    </array>
+    <array name="values_open_enter_translate_app">
+        <item>0.0f</item>
+        <item>0.240190972f</item>
+        <item>0.466145833f</item>
+        <item>0.617708333f</item>
+        <item>0.721440972f</item>
+        <item>0.7921875f</item>
+        <item>0.844270833f</item>
+        <item>0.886197917f</item>
+        <item>0.919010417f</item>
+        <item>0.944010417f</item>
+        <item>0.9625f</item>
+        <item>0.975954861f</item>
+        <item>0.985416667f</item>
+        <item>0.991840278f</item>
+        <item>0.996006944f</item>
+        <item>0.9984375f</item>
+        <item>0.999652778f</item>
+        <item>1.0f</item>
+    </array>
+    <array name="video_flashmode_animation_drawable">
+        <item>@drawable/mz_flash_torch_off</item>
+        <item>@drawable/mz_flash_off_torch</item>
+    </array>
+    <array name="video_flashmode_images">
+        <item>@drawable/mz_ic_tab_flash_off</item>
+        <item>@drawable/mz_ic_tab_flash_torch</item>
+    </array>
+</resources>

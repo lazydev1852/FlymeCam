@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17sp" android:textColor="@android:color/black" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="sans-serif-medium" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <TextView android:textSize="12sp" android:id="@+id/summary" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="18dp" android:singleLine="true" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+            <TextView android:textSize="14sp" android:textColor="@color/mzuc_dialog_msg_text_color" android:id="@+id/msg_indicator" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mzuc_msg_indicator" android:singleLine="true"/>
+            <TextView android:textSize="14sp" android:textColor="@color/mzuc_dialog_msg_text_color" android:id="@+id/msg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:lineSpacingExtra="3dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

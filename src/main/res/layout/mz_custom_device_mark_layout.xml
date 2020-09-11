@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/mz_custom_devicemark_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.meizu.textinputlayout.TextInputLayout android:id="@+id/edit_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:hintAnimationEnabled="false">
+        <EditText android:textSize="16sp" android:id="@+id/error_edit" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/mz_alert_dialog_normal_margin_start" android:layout_marginEnd="@dimen/mz_alert_dialog_normal_margin_end" style="@style/Theme.Flyme.AppCompat.Light.Alert.Edittext.Color.Coral"/>
+    </com.meizu.textinputlayout.TextInputLayout>
+</LinearLayout>

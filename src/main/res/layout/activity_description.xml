@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <WebView android:gravity="center" android:id="@+id/fullscreen_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageButton android:id="@+id/back" android:background="@drawable/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="16dp"/>
+    <FrameLayout android:id="@+id/emptyToast" android:background="@color/white" android:visibility="invisible" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.meizu.common.widget.EmptyView android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" app:mcSrcOfImage="@drawable/mz_ic_empty_view_refresh" app:mcTitle="网络异常，点击重新加载" app:mcTitleTextAppearance="@style/TextAppearance.Small.EmptyViewToast.Title" app:mcTopMarginOfTips="12dp"/>
+    </FrameLayout>
+</FrameLayout>

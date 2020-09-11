@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="top" android:orientation="vertical" android:id="@+id/mz_setting_layout" android:tag="layout/mz_setting_control_0" android:background="@color/mz_topbar_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <flyme.support.v7.widget.Toolbar android:id="@+id/mz_setting_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ListView android:id="@+id/mz_setting_listview" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/mz_list_selector" android:dividerHeight="@dimen/mz_controlbar_line_height" android:splitMotionEvents="false"/>
+</LinearLayout>

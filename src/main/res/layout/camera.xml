@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/camera_app_root" android:tag="layout/camera_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/cam_preview_v1_view" android:layout="@layout/stub_cam_preview_v1_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/cam_preview_v2_view" android:layout="@layout/stub_cam_preview_v2_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/cam_preview_video_view" android:layout="@layout/mz_video_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/delay_inflate_one" android:layout="@layout/delay_inflate_one" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.meizu.media.camera.views.MzImageView android:id="@+id/switch_cam_anim" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <ViewStub android:id="@+id/mz_square_control" android:layout="@layout/mz_square_control" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/bottom_bar_shadow" android:background="@drawable/mz_control_bar_bg" android:layout_width="match_parent" android:layout_height="@dimen/mz_bottom_bar_height"/>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/navigation_bar_shadow" android:background="@color/transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="42dp"/>
+    <ImageView android:layout_gravity="top" android:id="@+id/mz_smartbar_arc_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mz_smartbar_height"/>
+    <ImageView android:layout_gravity="top" android:id="@+id/mz_smartbar_shadow" android:background="@drawable/mz_smart_bar_bg" android:layout_width="match_parent" android:layout_height="@dimen/mz_smartbar_height"/>
+    <ViewStub android:id="@+id/mz_mode_menu_stub" android:layout="@layout/mz_mode_menu" android:inflatedId="@+id/mz_mode_menu_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.meizu.media.camera.views.RenderOverlay android:id="@+id/render_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.meizu.media.camera.views.MzInterceptFrameLayout android:id="@+id/mz_cam_touchable_layout" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/main_view_stub" android:layout="@layout/move_main" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include android:id="@+id/smartbar_include" layout="@layout/mz_camera_smartbar"/>
+        <include android:id="@+id/controlbar_include" layout="@layout/mz_camera_controlbar"/>
+        <ViewStub android:id="@+id/delay_inflate_two" android:layout="@layout/delay_inflate_two" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.meizu.media.camera.views.MzInterceptFrameLayout>
+    <ViewStub android:id="@+id/mz_image_capture_stub" android:layout="@layout/mz_image_capture" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/mz_front_flash_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/mz_front_flash_view_bottom" android:background="@color/colorWhite" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/mz_front_flash_hole_cover_view" android:background="@drawable/hole_screen_cover_view" android:visibility="gone" android:layout_width="@dimen/mz_hole_screen_cover_view_width" android:layout_height="@dimen/mz_hole_screen_cover_view_height" android:layout_marginTop="@dimen/mz_hole_screen_cover_view_margin_top" android:layout_marginRight="@dimen/mz_hole_screen_cover_view_margin_right" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</FrameLayout>

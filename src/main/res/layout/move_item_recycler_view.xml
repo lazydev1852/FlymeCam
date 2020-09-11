@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/item_group_layout" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/mz_font_size_11sp" android:textColor="#40ffffff" android:gravity="center" android:id="@+id/mode_move_hint" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginBottom="16.7dp" android:layout_alignParentTop="true"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/item_group_recycler" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/mode_move_hint" android:splitMotionEvents="false"/>
+</RelativeLayout>

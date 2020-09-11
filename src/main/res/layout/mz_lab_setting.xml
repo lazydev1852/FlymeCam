@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:gravity="center" android:layout_gravity="top" android:orientation="vertical" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="48dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextureView android:id="@+id/mz_lab_back_trace_video" android:layout_width="match_parent" android:layout_height="356dp"/>
+            <TextView android:textSize="@dimen/mz_font_size_13sp" android:background="@color/white" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mz_lab_setting_back_trace_desc" android:lineSpacingMultiplier="1.3"/>
+            <View android:background="@color/mz_lab_line_grey" android:layout_width="match_parent" android:layout_height="0.67dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+            <RelativeLayout android:id="@+id/mz_lab_back_trace_itemlayout" android:background="?android:attr/selectableItemBackground" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout style="@style/Widget.Flyme.DoubleLineList.ContainerLinearLayout.Large">
+                    <TextView android:id="@+id/mz_lab_switch_item_title" style="@style/Widget.Flyme.MultipleList.Title"/>
+                </LinearLayout>
+                <com.meizu.common.widget.Switch android:id="@+id/mz_lab_back_trace_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" style="@style/Widget.MeizuCommon.Switch.Color.Blue"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:background="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:background="@color/mz_lab_line_grey" android:layout_width="match_parent" android:layout_height="0.67dp"/>
+        <Button android:enabled="false" android:gravity="center" android:layout_gravity="center" android:id="@+id/mz_lab_back_trace_btn" android:layout_width="240dp" android:layout_height="38dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:text="@string/mz_lab_setting_enter" style="@style/Widget.DeviceDefault.Light.Button.Color.Blue"/>
+    </FrameLayout>
+</FrameLayout>

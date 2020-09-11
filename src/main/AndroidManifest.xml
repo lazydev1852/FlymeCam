@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:versionCode="8007017" android:versionName="8.7.17" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="com.meizu.media.camera" platformBuildVersionCode="8007017" platformBuildVersionName="8.7.17">
+    <uses-sdk android:minSdkVersion="22" android:targetSdkVersion="29"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.NETWORK_SETTINGS" android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.BIND_QUICK_SETTINGS_TILE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_READ"/>
+    <uses-permission android:name="android.permission.SUBSCRIBED_FEEDS_WRITE"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.START_ANY_ACTIVITY"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.REGISTER_WINDOW_MANAGER_LISTENERS"/>
+    <uses-permission android:name="flyme.permission.DEVICE_SUB_DISPLAY"/>
+    <uses-permission android:name="com.meizu.mznfcpay.permission.PAY_CODE"/>
+    <uses-permission android:name="android.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="flyme.permission.CONTROL_DISPLAY_BRIGHTNESS"/>
+    <uses-permission android:name="meizu.permission.BIND_PRIVACY_CONTROLER" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.meizu.functionmanager" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.meizu.flymelab.features.READ"/>
+    <uses-permission android:name="flyme.permission.SEND_ACTIVITY_RESULT"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="com.meizu.media.camera.push.permission.MESSAGE"/>
+    <uses-permission android:name="com.meizu.safe.permission.QR_CODE_SCAN_SERVICE"/>
+    <uses-permission android:name="com.meizu.safe.permission.QR_CODE_LOCAL_DB"/>
+    <uses-permission android:name="com.meizu.flyme.appcenter.permission.action.perform"/>
+    <uses-permission android:name="com.meizu.media.gallery.fm.FilterManage"/>
+    <permission android:name="com.meizu.media.camera.push.permission.MESSAGE" android:protectionLevel="signature"/>
+    <supports-screens android:anyDensity="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="18"/>
+    <uses-permission android:name="com.meizu.flyme.permission.UPDATE"/>
+    <uses-permission android:name="com.meizu.flyme.push.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="com.meizu.flyme.update.permission.EXTERNAL_INSTALL"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.LOCAL_MAC_ADDRESS"/>
+    <uses-permission android:name="android.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="flyme.permission.ROOT_RECOVERY_STATE"/>
+    <uses-permission android:name="com.meizu.safe.permission.MZ_OPEN_ID"/>
+    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS"/>
+    <compatible-screens/>
+    <application android:theme="@style/Theme.CameraBase" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.app.CameraApp" android:allowBackup="true" android:restoreAnyVersion="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:resizeableActivity="false" android:networkSecurityConfig="@xml/network_security_config" android:roundIcon="@mipmap/ic_launcher_camera_round" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:requestLegacyExternalStorage="true">
+        <meta-data android:name="com.meizu.adaptiveicon.mask.type" android:value="circle_mask_type"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="519951b662a01c067a181b341ef920ed"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <meta-data android:name="com.meizu.update.key.appid" android:value="100026"/>
+        <meta-data android:name="com.meizu.update.key.appkey" android:value="28bfb4bc49bb4159b80d88e90efe5dc8"/>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true"/>
+        <meta-data android:name="android.3dtouch.launcher_menu" android:resource="@xml/flyme_3dtouch_menu"/>
+        <meta-data android:name="uxip_channel_num" android:value="100"/>
+        <activity android:theme="@style/Theme.Camera" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.CameraActivity" android:taskAffinity="com.meizu.media.camera.CameraActivity" android:clearTaskOnLaunch="true" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing" android:allowBackup="false" android:visibleToInstantApps="true">
+            <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.FUNNY_CAM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.DOUBLE_CLICK_OPEN_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="flyme_3dtouch" android:host="com.meizu.media.camera" android:path="/mirror"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity>
+        <activity-alias android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.CameraLauncher" android:targetActivity="com.meizu.media.camera.CameraActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts"/>
+        </activity-alias>
+        <activity android:theme="@style/Theme.Camera.NoStartWindow" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.CameraNoStartWindowActivity" android:taskAffinity="com.meizu.media.camera.CameraNoStartWindowActivity" android:clearTaskOnLaunch="true" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing" android:allowBackup="false">
+            <intent-filter>
+                <action android:name="meizu.intent.action.OPEN_SCANNER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Camera.NoStartWindow" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.CameraSimplifyActivity" android:taskAffinity="com.meizu.media.camera.CameraNoStartWindowActivity" android:clearTaskOnLaunch="true" android:screenOrientation="portrait" android:configChanges="mcc|mnc|keyboard|keyboardHidden|navigation|orientation|uiMode|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustResize|adjustPan|adjustNothing" android:allowBackup="false" android:visibleToInstantApps="true">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.MEIZU_CAMERA_APP_MMS_EX"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="flyme_3dtouch" android:host="com.meizu.media.camera" android:path="/video"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.USE_FRONT_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.Gallery.Capture"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/video_camera_label" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.VideoCamera" android:targetActivity="com.meizu.media.camera.CameraSimplifyActivity">
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.media.action.VIDEO_CAPTURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/Theme.Camera" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_camera_round" android:name="com.meizu.media.camera.SecureCameraActivity" android:taskAffinity="com.meizu.media.camera.SecureCameraActivity" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|uiMode|screenSize" android:windowSoftInputMode="adjustUnspecified|stateUnchanged|stateHidden|stateAlwaysHidden|adjustPan" android:showWhenLocked="true">
+            <intent-filter>
+                <action android:name="android.media.action.STILL_IMAGE_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="meizu.intent.action.USE_FRONT_CAMERA_SECURE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.CameraSizeSetting.Dialog" android:name="com.meizu.media.camera.SizeChoiceDialogActivity" android:showWhenLocked="true"/>
+        <receiver android:name="com.meizu.media.camera.DisableCameraReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.meizu.media.camera.LanguageReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.meizu.media.camera.MediaSaveService" android:exported="false"/>
+        <receiver android:name="com.meizu.update.push.PushReceiver" android:permission="com.meizu.flyme.push.permission.SEND">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <category android:name="com.meizu.media.camera"/>
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/Theme.MzGifCropActivityTheme" android:name="com.meizu.media.camera.gif.GifCropActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|uiMode|screenSize">
+            <intent-filter>
+                <action android:name="com.meizu.media.camera.action.GIF_CROP"/>
+                <data android:mimeType="com.meizu.media.camera.gif/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="com.iflytek.business.speech.SharedProvider" android:exported="true" android:authorities="com.meizu.media.camera.provider"/>
+        <provider android:name="com.meizu.media.camera.database.CameraProvider" android:exported="false" android:authorities="com.meizu.flyme.camera"/>
+        <activity android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:name="com.meizu.media.camera.H5Activity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <service android:name="com.meizu.media.camera.FloatWindowService"/>
+        <activity android:theme="@style/MzCameraOnlineSetting" android:name="com.meizu.media.camera.CameraOnlineSettingActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="meizu.intent.action.FUNCTION_MANAGER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MzCameraOnlineSetting" android:name="com.meizu.media.camera.CameraLabSettingActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="meizu.intent.action.CAMERA_LABSETTING"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/MzCameraOnlineSetting" android:name="com.meizu.media.camera.CameraAicyActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:resizeableActivity="true">
+            <intent-filter>
+                <action android:name="meizu.intent.action.AICY_CAMERA"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.meizu.media.camera.MzCameraPushReceiver">
+            <intent-filter>
+                <action android:name="com.meizu.flyme.push.intent.REGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"/>
+                <action android:name="com.meizu.flyme.push.intent.MESSAGE"/>
+                <category android:name="com.meizu.media.camera"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.meizu.media.camera.UsageStatsService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <activity android:theme="@style/Theme.Flyme.Share.Day" android:name="com.meizu.sharewidget.activity.ShareViewGroupActivity" android:excludeFromRecents="true" android:launchMode="standard"/>
+        <activity android:theme="@style/Theme.Flyme.Share.Chooser" android:name="com.meizu.share.activity.ChooserActivity" android:configChanges="uiMode"/>
+        <service android:name="com.meizu.update.service.MzUpdateComponentService" android:exported="false" android:stopWithTask="false"/>
+        <activity android:theme="@style/MzucActivityNoDisplay" android:name="com.meizu.update.display.KeyguardHelperActivity" android:exported="false"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.meizu.update.display.UpdateDialogActivityWrapper" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask"/>
+        <provider android:name="com.meizu.update.util.UpdateFileProvider" android:exported="false" android:authorities="com.meizu.media.camera.update.fileProvider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/updatefilepaths"/>
+        </provider>
+        <activity android:name="flyme.support.v7.app.WebViewActivity" android:screenOrientation="portrait"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false"/>
+        <service android:name="com.meizu.cloud.pushsdk.NotificationService" android:exported="true"/>
+        <receiver android:name="com.meizu.cloud.pushsdk.SystemReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.meizu.cloud.pushservice.action.PUSH_SERVICE_START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.meizu.savior.SaviorJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+    </application>
+</manifest>

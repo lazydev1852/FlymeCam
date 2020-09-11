@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.camera.views.SwitchItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_setting_item" android:descendantFocusability="blocksDescendants" android:minHeight="@dimen/mz_item_switch_label_mini_height" style="@style/MzBaseListItem">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/mz_font_size_16sp" android:textColor="@color/mz_setting_label_title" android:ellipsize="end" android:id="@+id/mz_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/mz_font_size_12sp" android:textColor="@color/mz_setting_label_detail" android:ellipsize="end" android:id="@+id/mz_item_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_item_switch_detail_margin_top" android:maxLines="1"/>
+    </LinearLayout>
+    <com.meizu.common.widget.Switch android:layout_gravity="center_vertical" android:id="@+id/mz_item_switcher" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</com.meizu.media.camera.views.SwitchItemView>

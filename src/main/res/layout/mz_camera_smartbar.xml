@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_smartbar_layout" android:tag="layout/mz_camera_smartbar_0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.meizu.media.camera.views.MzSmartbarContainer android:layout_gravity="center_vertical" android:id="@+id/mz_camera_smartbar" style="@style/MzSmartBar">
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/menu_smb_mode_exit" android:visibility="gone" android:src="@drawable/mz_ic_smb_mode_exit" android:contentDescription="@string/descp_mode_close" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/flashlight_control" android:src="@drawable/mz_ic_tab_flash_off" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/video_eis_switch" android:visibility="gone" android:src="@drawable/mz_ic_tab_eis_on" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/manual_20m_control" android:visibility="gone" android:src="@drawable/mz_ic_tab_20m_off" android:contentDescription="@string/descp_smb_20m" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/hdr_control" android:src="@drawable/mz_ic_tab_hdr_off" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/timer_control" android:src="@drawable/mz_ic_tab_countdown_close" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/record_portrait_control" android:visibility="gone" android:src="@drawable/ic_record_portrait_off" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/filter_control" android:src="@drawable/mz_ic_tab_filter" android:contentDescription="@string/descp_smb_filter" app:needMultiState="false" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/tripod" android:visibility="gone" android:src="@drawable/mz_ic_tab_tripod_off" app:needMultiState="false" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/info" android:visibility="gone" android:src="@drawable/mz_ic_tab_info" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/fb_control" android:src="@drawable/mz_ic_tab_fb_off" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/time_lapse_control" android:visibility="gone" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/fps_control" android:visibility="gone" android:src="@drawable/mz_ic_tab_sm_120fps_selected" style="@style/MzSmartBarBtn"/>
+        <com.meizu.media.camera.views.GlowImageView android:id="@+id/menu_control" android:src="@drawable/mz_ic_tab_menu" android:contentDescription="@string/descp_smb_setting" style="@style/MzSmartBarBtn"/>
+    </com.meizu.media.camera.views.MzSmartbarContainer>
+    <TextView android:gravity="center_horizontal" android:id="@+id/smartbar_hint_textview" android:layout_marginTop="12dp" android:shadowColor="@color/mz_screen_hint_shadow_color" android:layout_below="@+id/mz_camera_smartbar" android:layout_centerInParent="true" style="@style/MzFbItemText"/>
+    <TextView android:textSize="@dimen/mz_font_size_11sp" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/smartbar_bg_hint_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="19dp" android:layout_marginTop="12dp" android:layout_below="@+id/mz_camera_smartbar" android:layout_centerInParent="true" android:paddingStart="6dp" android:paddingEnd="6dp"/>
+</RelativeLayout>

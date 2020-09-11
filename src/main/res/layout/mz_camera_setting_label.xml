@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.media.camera.views.LableItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mz_setting_item" android:minHeight="@dimen/mz_item_label_mini_height" style="@style/MzBaseListItem">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/mz_font_size_16sp" android:textColor="@color/mz_setting_label_title" android:id="@+id/mz_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/mz_font_size_12sp" android:textColor="@color/mz_setting_label_detail" android:id="@+id/mz_item_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_item_switch_detail_margin_top"/>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_more_down" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+</com.meizu.media.camera.views.LableItemView>

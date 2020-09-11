@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toast_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/mz_font_size_14sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/toast_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="400dp" android:shadowColor="@color/mz_mode_name_shadow_color" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="2"/>
+    </RelativeLayout>
+</RelativeLayout>

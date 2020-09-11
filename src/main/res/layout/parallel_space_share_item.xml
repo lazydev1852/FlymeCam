@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/item_container" android:background="@drawable/gridview_selector" android:layout_width="match_parent" android:layout_height="62dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/icon_image" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="fitCenter" android:layout_marginStart="11dp"/>
+    <com.meizu.sharewidget.widget.ItemTextView android:textSize="16sp" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="11dp" android:layout_marginEnd="16dp"/>
+</LinearLayout>

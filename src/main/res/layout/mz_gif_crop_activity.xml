@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/mz_font_size_18sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/gif_title" android:layout_width="match_parent" android:layout_height="@dimen/mz_smartbar_height" android:text="@string/mz_gif_crop_title"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/gif_image_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:nestedScrollingEnabled="true"/>
+        <com.meizu.media.camera.views.MzGifSeekBar android:layout_gravity="center_horizontal" android:id="@+id/gif_crop_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_gif_seekbar_margin_left" android:layout_marginTop="@dimen/mz_gif_seekbar_margin_top" android:layout_marginRight="@dimen/mz_gif_seekbar_margin_right" android:layout_marginBottom="@dimen/mz_gif_seekbar_margin_bottom"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/gif_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_gif_play" android:contentDescription="@string/descp_gif_play"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.meizu.common.widget.LoadingView android:id="@+id/gif_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</FrameLayout>
