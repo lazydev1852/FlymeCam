@@ -1791,7 +1791,7 @@ public class DeviceHelper {
             return (String) proxy.result;
         }
         try {
-            Object a = C2634am.m15995a("android.os.SystemProperties", "get", (Class<?>[]) new Class[]{String.class, String.class}, (Object[]) new String[]{"ro.product.flyme.model", null});
+            Object a = C2634am.m15995a("android.os.SystemProperties", "get", (Class<?>[]) new Class[]{String.class, String.class}, (Object[]) new String[]{"ro.product.device", null});
             if (a != null) {
                 return a.toString();
             }
